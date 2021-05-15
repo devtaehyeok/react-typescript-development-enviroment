@@ -1,8 +1,8 @@
+import loadable from '@loadable/component';
 import React, { FC } from 'react';
 import { Redirect, Route, Switch } from 'react-router';
-import { MyTestPage } from './pages/myTestPage';
-import { MyTestPage2 } from './pages/myTestPage2';
-
+const MyTestPage = loadable(() => import('@pages/myTestPage'));
+const MyTestPage2 = loadable(() => import('@pages/myTestPage2'));
 const App: FC = () => {
   return (
     <Switch>

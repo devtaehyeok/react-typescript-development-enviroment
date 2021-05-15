@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './src/App';
 
 render(
+  /** history api fallback */
   <BrowserRouter>
     <App />
   </BrowserRouter>,

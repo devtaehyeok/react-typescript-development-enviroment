@@ -6,5 +6,7 @@
 - webpack
 - webpack-dev-server
 - hot-reloading
+- code-splitting
+  - lodable-component
 - babel
 - emotion

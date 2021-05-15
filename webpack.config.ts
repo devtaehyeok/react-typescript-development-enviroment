@@ -18,12 +18,12 @@ const config: Configuration = {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
       // 웹팩은 이것을 보고 바꿈.
-      '@hooks': path.resolve(__dirname, 'hooks'), /// ../ 제거
-      '@components': path.resolve(__dirname, 'components'),
-      '@layouts': path.resolve(__dirname, 'layouts'),
-      '@pages': path.resolve(__dirname, 'pages'),
-      '@utils': path.resolve(__dirname, 'utils'),
-      '@typings': path.resolve(__dirname, 'typings'),
+      '@hooks': path.resolve(__dirname, './src/hooks'), /// ../ 제거
+      '@components': path.resolve(__dirname, './src/components'),
+      '@layouts': path.resolve(__dirname, './src/layouts'),
+      '@pages': path.resolve(__dirname, './src/pages'),
+      '@utils': path.resolve(__dirname, './src/utils'),
+      '@typings': path.resolve(__dirname, './src/typings'),
     },
   },
   entry: {
